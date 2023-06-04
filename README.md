@@ -3,6 +3,7 @@
 # MERN Stack CSS Tasks
 
 S.No | Task | Output Link
+:-: | :-: | :-:
 1 | Task 1 | [View](https://ugsnikhilesh.github.io/CSS_Tasks/CSS_Task_1.html)
 2 | Task 2 | [View](https://ugsnikhilesh.github.io/CSS_Tasks/CSS_Task_2.html)
 3 | Task 3 | [View](https://ugsnikhilesh.github.io/CSS_Tasks/CSS_Task_3.html)
