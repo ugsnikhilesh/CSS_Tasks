@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>20BCE1174 - CSS Task 11</title>
+        <style>
+        body 
+        {
+            background: rgb(199, 221, 49);
+            background: linear-gradient(90deg, rgba(199, 221, 49, 1) 0%, rgba(170, 198, 20, 1) 100%);
+        }
+        section>div 
+        {
+            width: 150px;
+            background-color: white;
+            margin-top: 10px;
+            height: 25px;
+            padding: 2px 0px 2px 2px;
+        }
+        section 
+        {
+            margin-top: 50px;
+            float: left;
+        }
+        .sd 
+        {
+            position: relative;
+            float: right;
+            right: 0px;
+            background-color: black;
+            height: 29px;
+            width: 20px;
+            margin: 0;
+            margin-top: -2px;
+        }
+        .inner 
+        {
+            float: left;
+            width: 120px;
+            height: 25px;
+            padding-top: 2px;
+            padding-left: 5px;
+            vertical-align: middle;
+            color: blue;
+
+        }
+        #home 
+        {
+            color: rgb(168, 46, 184);
+        } 
+        #outer > div 
+        {
+            position: relative;
+            flex: left;
+            margin-top: 50px;
+            margin-left: 160px;
+            padding: 20px;
+            width: 300px;
+        }
+        h1, p 
+        {
+            color: rgb(168, 46, 184);
+        }
+        hr 
+        {
+            border: 1px solid rgb(168, 46, 184);
+        }
+        address 
+        {
+            color: rgb(168, 46, 184);
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <section>
+            <div>
+                <div class="inner" id="home">
+                    Home Page
+                </div>
+                <div class="sd"></div>
+            </div>
+            <div>
+                <div class="inner">
+                    Musings
+                </div>
+                <div class="sd"></div>
+            </div>
+            <div>
+                <div class="inner">
+                    My town
+                </div>
+                <div class="sd"></div>
+            </div>
+            <div>
+                <div class="inner">
+                    Links
+                </div>
+                <div class="sd"></div>
+            </div>
+        </section>
+        <div>
+            <h1>My first styled page</h1>
+            <p>Welcome to my styled page!</p>
+            <p>It lacks images, but at least it has style. And it
+            has links, even if they don't go anywhere...</p>
+            <p>There should be more here, but I don't know
+            what yet.</p>
+            <hr/>
+            <address>Made 17 May 2023</address>
+            <address> by myself.</address>
+        </div>
+    </div>
+</body>
+</html>
